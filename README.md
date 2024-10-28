@@ -1,4 +1,4 @@
-
+## WEEK 1
 ## What book, album or movie did you choose? What is it about?
 
 For this mid-term project, I wanted to pick Katy Perry's Witness album because (im a huge katycat fan) and that i could see some potential ideas I could explore. The album contains themes of self-awareness, empowerment, and vulnerability, blending electronic pop with personal reflection. A lot of the visuals are futurtistic and abstracts - which makes it a great opportunity fort dynamic and interactive design. 
@@ -35,3 +35,30 @@ or i could look at abstraction when it comes to simplicity - such as shapes that
 ## Include at least one drawing or sketch¸xasdcfvc
 
 [![Untitled-Artwork-3.jpg](https://i.postimg.cc/zBjVq0D5/Untitled-Artwork-3.jpg)](https://postimg.cc/FdY9ZbJn)
+
+
+## WEEK 2
+
+Getting this code to work was a mix of patience and learning how each element interacted on the canvas. I started with a rough structure to build the facial features but quickly realized that positioning and layering would need more control. For example, the eyelashes kept shifting out of place because I hadn’t isolated each set, so I used `push()` and `pop()` to manage the transformations separately.
+
+The biggest “aha” moment was realizing that `mousePressed()` needed to be outside the `draw()` function to toggle the eye correctly and randomize the iris color on each click. Adding the `if (eyeOpen)` condition allowed me to control when the eye appeared, creating the effect of it opening and closing interactively.
+
+Through trial and error, I saw how details like layer order, transformations, and random color generation could all combine to bring a simple sketch to life on the screen. It was rewarding to see it finally come together with symmetry, interactivity, and just the right level of quirkiness!
+
+[![Screenshot-2024-10-28-at-11-01-34-AM.png](https://i.postimg.cc/8PszZ5JK/Screenshot-2024-10-28-at-11-01-34-AM.png)](https://postimg.cc/HVDmxTtX)
+
+[![Screenshot-2024-10-28-at-3-30-05-PM.png](https://i.postimg.cc/pdkNNf3D/Screenshot-2024-10-28-at-3-30-05-PM.png)](https://postimg.cc/GBBgGyL2)
+
+Visual elements: 
+1. Gradual background color change over time  - BgColor 
+2. Face shape - large oval centered in canvas 
+3. Eyebrows - two arcs 
+4. Blush - two pink circles 
+5. Mouth with eye inside - organic mouth shape 
+6. Interactive eye - when the mouse is clicked, the eye toggles open/close and the iris color changes randomly
+
+Setting up variables - eyeOpen, eyeColor, BgColor
+— animated aspects 
+- eyeOpen is a boolean that keeps track of whether the eye is open/closed
+- eyeColor - color of iris 
+- BgColor - background color that changes over time. 
