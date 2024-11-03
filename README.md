@@ -62,3 +62,5 @@ Setting up variables - eyeOpen, eyeColor, BgColor
 - eyeOpen is a boolean that keeps track of whether the eye is open/closed
 - eyeColor - color of iris 
 - BgColor - background color that changes over time. 
+
+# Milestone 3
