@@ -64,3 +64,14 @@ Setting up variables - eyeOpen, eyeColor, BgColor
 - BgColor - background color that changes over time. 
 
 # Milestone 3
+
+Building on the feedback I received last week, I chose to intensify the eye symbolism and interactive elements in my project by filling the background canvas with additional eyeballs. My goal was to create a more immersive experience, enhancing both the visual impact and interactivity. Since I already had a mouse-click interaction that triggers the blinking eye within the main face element, I faced some challenges when adding a new mouse-click event specifically for the background. I initially envisioned each click leaving an eyeball on the canvas, symbolizing lingering "witnesses" wherever the user interacted.
+
+After experimenting with the click-based interactions, I realized that triggering multiple functions through mouse clicks was causing interference between them. To address this, I decided to leverage mouseDragged instead. This adjustment allowed me to create a continuous "eyeball trail" effect, where eyeballs follow the user's cursor as they move across the canvas. The result is a dynamic and captivating interaction that enriches the symbolic presence of the eyes while seamlessly blending with the blinking effect already in place.
+
+## Description of the final interactivity or time-based logic
+- The final interactivity design is an evolving visual experience that is centered on the concept of observation and surveillance (with the eyeball being the symbolic element of the album). The canvas background subtly shifts colors over time to reflecting a sense of continues transformation in emotional fluidity. The main eye (in the mouth) blinks and changes colors when clicked, emphasizing the themes of surveillance and emotional response. Each time the user clicks, the eye closes briefly, then opens with a new, randomized color, symbolizing a refreshed gaze. As the user moves the cursor across the canvas, the mouseDragged function leaves a trail of eyeballs behind, representing a lingering sense of being "witnessed" by the viewer's actions. These eyeballs remain on the canvas, creating a cumulative effect that marks each interaction, as if every movement leaves a lasting impression. This trail, combined with the blinking eye, builds a symbolic narrative where the user becomes both the observer and the observed.Overall, the combination of timed color shifts, blinking eye interactions, and persistent eyeball trails makes the experience both interactive and time-based. 
+
+[![Screenshot-2024-11-03-at-1-21-16-PM.png](https://i.postimg.cc/FF6crNDd/Screenshot-2024-11-03-at-1-21-16-PM.png)](https://postimg.cc/grvr4F9m)
+
+[Screenshot-2024-11-03-at-12-48-37-PM.png](https://postimg.cc/18KpdnLR)
