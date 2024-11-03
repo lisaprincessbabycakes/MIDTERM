@@ -74,4 +74,4 @@ After experimenting with the click-based interactions, I realized that triggerin
 
 [![Screenshot-2024-11-03-at-1-21-16-PM.png](https://i.postimg.cc/FF6crNDd/Screenshot-2024-11-03-at-1-21-16-PM.png)](https://postimg.cc/grvr4F9m)
 
-[Screenshot-2024-11-03-at-12-48-37-PM.png](https://postimg.cc/18KpdnLR)
+[![Screenshot-2024-11-03-at-1-25-37-PM.png](https://i.postimg.cc/LX3JzMpS/Screenshot-2024-11-03-at-1-25-37-PM.png)](https://postimg.cc/0Mr5sFjX)
